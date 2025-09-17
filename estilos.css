@@ -1,0 +1,77 @@
+/* Estilos generales */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f8f8f8;
+    text-align: center;
+    background-image: url(https://cdn.discordapp.com/attachments/1375206017641615382/1412546905120178308/file_0000000000b06230ae8ef22bc7941e7c.png?ex=68c9d3d2&is=68c88252&hm=05d95e64024fd18085386af2392b24da1e2441db23b9f1a07bde91cf9fc74dad&);
+}
+
+/* Contenedor principal */
+.container {
+    margin-top: 50px;
+}
+header {
+    padding: 20px 40px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    gap: 30px;
+}
+
+nav a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #ffffff;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #555;
+}
+
+
+/* Título */
+h1 {
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 1.5;
+    color: #000000;
+
+}
+
+/* Catálogo */
+.catalogo {
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: repeat(3, 150px);
+    gap: 20px;
+    justify-content: center;
+}
+
+/* Botones/enlaces */
+.catalogo a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    border: 2px solid #000;
+    border-radius: 12px;
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: white;
+    transition: all 0.3s ease;
+}
+
+/* Hover */
+.catalogo a:hover {
+    background-color: #222;
+    color: white;
+    transform: scale(1.05);
+}
