@@ -5,17 +5,9 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: #f8f8f8;
     text-align: center;
-    background-image: url(https://cdn.discordapp.com/attachments/1375206017641615382/1412546905120178308/file_0000000000b06230ae8ef22bc7941e7c.png?ex=68c9d3d2&is=68c88252&hm=05d95e64024fd18085386af2392b24da1e2441db23b9f1a07bde91cf9fc74dad&);
-    background-size: cover;
-    background-position: center;
+    background-color: #222;
 }
-image{
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
-    width: 100%;
-    position: relative;
-}
+    
 /* Contenedor principal */
 .container {
     margin-top: 50px;
@@ -48,7 +40,7 @@ h1 {
     font-size: 50px;
     font-weight: bold;
     line-height: 1.5;
-    color: #000000;
+    color: #ffffff;
 
 }
 
